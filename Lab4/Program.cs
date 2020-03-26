@@ -71,6 +71,9 @@ namespace Lab4
         public ECase VariableCase;
         public ECase MethodCase;
 
+        /// <summary>
+        /// Вывод информации об конфигурации
+        /// </summary>
         public void Print()
         {
             Console.WriteLine($"SyntaxHighlight: {SyntaxHighlight}");
